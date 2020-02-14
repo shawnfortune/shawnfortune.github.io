@@ -1,8 +1,32 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
 h1 {
   color:rgb(100, 200, 120);
   color: red
   color #bada55;
-  background-color: #556b2f;
+  background-color: teal;
   text-align: center;
   font-size:36pt ;
+  font-family: monospace;
+}
+p {
+  font-weight: 200;
+  font-family: ;
+}
+
+b,
+strong {
+  font- weight: 200;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  background color: pink
 }
