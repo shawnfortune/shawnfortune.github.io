@@ -1,0 +1,27 @@
+@import url("https://fonts.google.com/specimen/Roboto?selection.family=Roboto");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: grey;
+  text-decoration: none
+}
+
+a:hover {
+  background-color: pink
+}
+
+p {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif
+}
+
+h1 {
+  color:rgb(100, 200, 120);
+  color: black;
+  background-color: grey;
+  text-align: left;
+  font-size:36pt
+}
