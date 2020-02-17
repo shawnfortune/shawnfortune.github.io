@@ -28,5 +28,10 @@ a {
 }
 
 a:hover {
-  background color: pink
+  background-color: pink
+}
+
+.flan {
+  font-weight: 400;
+  color: orange;
 }
