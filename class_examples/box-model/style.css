@@ -1,0 +1,34 @@
+body {
+  background-color: pink;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header {background-color: grey;
+  border: 3px solid white;
+  /*padding is for spacae between content and border */
+  padding: 30px;
+  /* margin is for the space between the border and other boxes */
+  margin: 50px;
+  height:400px;
+  width: 400px;
+}
+
+main {
+  height:100%;
+  width: 100%;
+  background-color: white;
+  padding: 30px 50px;
+}
+
+.Wed {
+  background-color: yellow;
+  /*if you have 4 value of padding they are applied in a clockwise order*/
+  padding: 40px 20px 10px 100px;
+  margin: -40px 90px 22px 12px;
+}
+footer {
+  background-color: skyblue;
+  margin: 50px 50px 50px;
+  padding: 40px 20px 10px 100px;
+}
