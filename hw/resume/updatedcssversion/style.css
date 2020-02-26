@@ -18,11 +18,27 @@ p {
   font-family: "Roboto", sans-serif
 }
 
-h1 {
+.name {
   color:rgb(100, 200, 120);
   color: black;
   background-color: grey;
   text-align: left;
   font-size:36pt;
   box-shadow: 10px 5px 5px red;
+}
+
+.job {
+  font-size: 23px;
+}
+
+.job2 {
+  font-size: 25px;
+}
+
+.s {
+  list-style-type: none;
+}
+
+.hobbiesaboutme:hover {
+  font-style: italic;
 }
