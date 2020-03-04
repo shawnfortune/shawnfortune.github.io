@@ -1,3 +1,18 @@
+body {
+  background-color: skyblue
+}
 .grid-container-1 {
-  width: 100px;
+display: grid;
+}
+.g1-img-1 {
+  max-height: 200px;
+}
+.g1-img-2 {
+  max-height: 200px;
+}
+.g1-img-3 {
+  max-height: 200px;
+}
+.g1-img-4 {
+  max-height: 200px;
 }
