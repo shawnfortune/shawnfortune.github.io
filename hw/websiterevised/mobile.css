@@ -1,0 +1,38 @@
+@media only screen and (max-width:767px) {
+  body {
+    background-color: #99cc99;
+  }
+
+  .headerphoto {
+    width: 100%;
+  }
+
+  .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+  }
+
+  .OverviewList2, .whytheyreimportant, .howtosurfbody {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: justify;
+  }
+
+.OverviewList1, .SurfBrandsList1, .Howtosurfsteps {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+}
