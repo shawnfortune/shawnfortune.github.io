@@ -1,0 +1,10 @@
+.big-text {
+  color: #f9423a;
+  font-size: 120px;
+}
+
+#box {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
