@@ -23,20 +23,20 @@ $(document).ready(function() {
     $("#FirstThingsWeDid").hide();
   });
 
-  $("p")
+  $("h6")
     .mouseover(function() {
       // when your mouse is over a paragraph, the font size will become 21px
-      $("p")
+      $("h6")
         .css("font-size", "35px");
     });
 
-  $("p")
+  $("h6")
     .mouseleave(function() {
       // when your mouse leaves a paragraph the font-size will get smaller
       // and the background-color of the paragraph will become yellow
-      $("p")
+      $("h6")
         .css("background-color", "#ffff0d");
-      $("p")
+      $("h6")
         .css("font-size", "16px");
     });
 });
