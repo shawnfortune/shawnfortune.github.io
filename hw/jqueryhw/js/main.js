@@ -10,67 +10,17 @@ $(document).ready(function() {
 
   $("#title").click(function() {
 
-    $("#title").html("How To Make a damn good Cuban Medianoche Sandwich.");
+    $("#title").html("My best vacation yet.");
   });
 
   $("#button1").click(function() {
     // when you click the show button, show the hidden ingredient list
-    $("#ingredientList").show();
+    $("#FirstThingsWeDid").show();
   });
 
   $("#button2").click(function() {
     // when you click the hide button, hide the ingredient list
-    $("#ingredientList").hide();
-  });
-
-  $("#button3").click(function() {
-    // when you click the hide button, show step 1
-    $("#step1description").show();
-  });
-
-  $("#button4").click(function() {
-    // when you click the hide button, hide step 1
-    $("#step1description").hide();
-  });
-
-  $("#button5").click(function() {
-    // when you click the hide button, show step 1
-    $("#step2description").show();
-  });
-
-  $("#button6").click(function() {
-    // when you click the hide button, hide step 1
-    $("#step2description").hide();
-  });
-
-  $("#button7").click(function() {
-    // when you click the hide button, show step 1
-    $("#step3description").show();
-  });
-
-  $("#button8").click(function() {
-    // when you click the hide button, hide step 1
-    $("#step3description").hide();
-  });
-
-  $("#button9").click(function() {
-    // when you click the hide button, show step 1
-    $("#step4description").show();
-  });
-
-  $("#button10").click(function() {
-    // when you click the hide button, hide step 1
-    $("#step4description").hide();
-  });
-
-  $("#button11").click(function() {
-    // when you click the hide button, show step 1
-    $("#step5description").show();
-  });
-
-  $("#button12").click(function() {
-    // when you click the hide button, hide step 1
-    $("#step5description").hide();
+    $("#FirstThingsWeDid").hide();
   });
 
   $("p")
