@@ -3,28 +3,91 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSS grid</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165155168-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165155168-1');
+
+</script>
 
 <body>
     <header>
-        <h1>the Killers</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Coronavirus and the Environment</h1>
+        <p>Animals are returning to their natural habitats, cities are seeing the lowest levels of pollution they’ve experienced since data has been kept and climate change is slowing down. My project will analyze the data that we already have in efforts
+            to communicate the environmental reprieve that the world needs. The current data during coronavirus, plastered against the wall of data from before the coronavirus makes a compelling case that “what could be” isn’t as far away as some may
+            think.
+        </p>
     </header>
     <main>
         <!-- This is where the main part of my page goes. -->
         <section class="grid-container">
-            <h2 class="album-1-title">Hot Fuss</h2>
-            <img src="hotFuss.png" alt="Hot Fuss album art" class="album-1-cover">
+            <img src="images/1.gif" alt="China_Pollution" class="grid1-cover">
             <ol class="album-1-songs">
-                <li>"Jenny Was a Friend of Mine"</li>
-                <li>"Mr. Brightside"</li>
+                <p>“We may soon learn how much of an impact this temporary pause in pollution has had on human health and the environment, but the clearest takeaway from this event is how satellite measurements of nitrogen compounds can be used as an
+                    indicator of economic activity,” said Ryan Stauffer, a research scientist at NASA’s Goddard Space Flight Center. The research here presents the differences in the air pollution in China in January, Febuary and March of this year. Without a
+                    doubt, the halt of production in the country has led to an decrease of air pollution.</p>
             </ol>
         </section>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--2">
+                <img src="images/city2.jpg" class="gallery__img" alt="Image2">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="images/city1.jpg" class="gallery__img" alt="Image3">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="images/shanghi1.jpg" class="gallery__img" alt="Image4">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+                <img src="images/shangi2.jpg" class="gallery__img" alt="Image5">
+            </figure>
 
+        </div>
+        <div class="slide-wrap">
+            <a href="#slide-1">1</a>
+            <a href="#slide-2">2</a>
 
+            <div class="slider">
+                <div class="slide" id="slide-1">
+                    <img src="images/ladirty.jpg" class=" laphotos" alt="ladirty">
+                </div>
+                <div class="slide" id="slide-2">
+                    <img src="images/laclean.jpg" class=" laphotos" alt="laclean">
+                </div>
+
+            </div>
+        </div>
+        <p>The COVID-19 pandemic is wreaking havoc on countries around the world, causing a global health crisis while forcing economies to shut down in the face of strict quarantine measures. But the outbreak is also having an intriguing impact on
+            Earth's environment, as nations restrict the movement of people.
+
+            One of the areas that scientists are witnessing a big difference is in air quality. It seems that the pandemic is already leading to huge reductions in air pollution in those regions that have been significantly affected by COVID-19—such as
+            China and Italy—as industry, aviation and other forms of transport grind to a halt.</p>
+
+        <h2>What happens after the Pandemic is over? Will things go back to before or will people develop more environmentally conscious techniques?</h2>
+
+        <section class="grid-container2">
+            <h1>"Air pollution levels as observed by satellite are showing drastic improvements in many areas that have been undergoing restrictive quarantines due to COVID-19." -Peter DeCarlo, an Associate Professor of Environmental Health Engineering at
+                Johns Hopkins University</h1>
+            <h1>"In recent years, we've emitted close to 500 tons of CO2 for every $1 million of global GDP—for example, 40 billion tons of CO2 for $88 trillion in 2019. If this ratio holds, a decline in world GDP can be expected to cause a proportional
+                decrease in global CO2 emissions." -Steven Davis, an Associate Professor in the Department of Earth System Science at the University of California, Irvine</h1>
+        </section>
+        <p>In the long term, there are lots of folks talking about how the COVID-19 pandemic holds lessons and opportunities for environmental action. For example, we will have a new baseline of what's possible to do online:
+            telecommute, educate, shop, etcetera. And to the extent our government, institutions, and social networks succeed by coming together, we may feel more empowered to take on daunting issues like climate change and a transition to sustainable
+            energy sources. (Information from: https://www.newsweek.com/coronavirus-major-impact-environment-co2-air-quality-animals-1493812)</p>
 
     </main>
 
