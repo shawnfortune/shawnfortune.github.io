@@ -2,27 +2,25 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165155168-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-165155168-1');
+
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CSS grid</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165155168-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-165155168-1');
-
-</script>
 
 <body>
     <header>
@@ -36,11 +34,11 @@
         <!-- This is where the main part of my page goes. -->
         <section class="grid-container">
             <img src="images/1.gif" alt="China_Pollution" class="grid1-cover">
-            <ol class="album-1-songs">
-                <p>“We may soon learn how much of an impact this temporary pause in pollution has had on human health and the environment, but the clearest takeaway from this event is how satellite measurements of nitrogen compounds can be used as an
+            <li class="impact">
+                <ul>“We may soon learn how much of an impact this temporary pause in pollution has had on human health and the environment, but the clearest takeaway from this event is how satellite measurements of nitrogen compounds can be used as an
                     indicator of economic activity,” said Ryan Stauffer, a research scientist at NASA’s Goddard Space Flight Center. The research here presents the differences in the air pollution in China in January, Febuary and March of this year. Without a
-                    doubt, the halt of production in the country has led to an decrease of air pollution.</p>
-            </ol>
+                    doubt, the halt of production in the country has led to an decrease of air pollution.</ul>
+            </li>
         </section>
         <div class="gallery">
             <figure class="gallery__item gallery__item--2">

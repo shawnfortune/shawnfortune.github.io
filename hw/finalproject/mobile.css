@@ -1,7 +1,24 @@
 @media only screen and (max-width:767px) {
   body {
     background-color: #99cc99;
-    width: 767px;
+    max-width: 360x;
+  }
+
+  p {
+    width: 360px;
+  }
+
+  h1 {
+    width: 360px;
+  }
+
+  h2 {
+    width: 360px;
+  }
+
+  .gallery__item gallery__item--2 {
+    'width: 360px;
+
   }
 
   .grid-container-1, .grid-container-2, .grid-container-3, .grid-container-4 {
